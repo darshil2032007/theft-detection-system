@@ -1,6 +1,7 @@
 # 🛒 Theft Detection System
 
-An AI-powered computer vision application built with **Streamlit**, **OpenCV**, and a **custom-trained YOLO model** to analyze retail surveillance videos. The system detects **cash drawer state (OPEN / CLOSED)** and **theft events**, while automatically capturing evidence frames.
+An AI-powered computer vision application built with **Streamlit**, **OpenCV**, and a **custom-trained YOLO model** to analyze retail surveillance videos.
+The system detects **cash drawer state (OPEN / CLOSED)** and **theft events**, while automatically capturing evidence frames.
 
 ---
 
@@ -11,10 +12,10 @@ This application performs intelligent video analysis to:
 ✔ Detect cash drawer activity
 ✔ Recognize drawer OPEN / CLOSED state
 ✔ Identify theft events
-✔ Display real-time detection results
+✔ Display real-time inference results
 ✔ Automatically save evidence frames
 
-Designed as an **AI/ML + Computer Vision project** for retail security and loss prevention research.
+This project is designed for **retail security**, **loss prevention research**, and **AI/ML demonstration**.
 
 ---
 
@@ -47,6 +48,7 @@ Designed as an **AI/ML + Computer Vision project** for retail security and loss 
 TheftDetectionSystem/
 │── app.py
 │── requirements.txt
+│── runtime.txt
 │── models/
 │     └── best2.pt
 │── evidence/   (generated at runtime)
@@ -59,11 +61,11 @@ TheftDetectionSystem/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/theft-detection-system.git
+git clone https://github.com/darshil2032007/theft-detection-system.git
 cd theft-detection-system
 ```
 
-Create virtual environment (recommended):
+Create a virtual environment (recommended):
 
 ```bash
 python -m venv venv
@@ -86,11 +88,11 @@ streamlit run app.py
 
 ## ▶️ Usage
 
-1️⃣ Launch the app
-2️⃣ Upload a retail surveillance video
-3️⃣ Click **Start Detection**
-4️⃣ View drawer & theft detection results
-5️⃣ Evidence frames saved automatically
+- 1️⃣ Launch the app
+- 2️⃣ Upload a surveillance / retail video
+- 3️⃣ Click **Start Detection**
+- 4️⃣ View drawer & theft detection results
+- 5️⃣ Evidence frames saved automatically
 
 ---
 
@@ -102,7 +104,7 @@ streamlit run app.py
   * Drawer detection
   * Theft detection
 
-Ensure model file exists:
+Model location:
 
 ```
 models/best2.pt
@@ -122,7 +124,7 @@ When theft is detected:
 
 ## 🌐 Deployment
 
-This application can be deployed using:
+This application is deployable via:
 
 ✔ Streamlit Community Cloud
 ✔ Render
@@ -137,21 +139,10 @@ This application can be deployed using:
 * Evidence folder is runtime-generated
 * Streamlit Cloud storage is temporary (ephemeral)
 
----
-
-## 🔥 Future Enhancements
-
-* Live CCTV / webcam monitoring
-* Cloud evidence storage
-* Email / SMS alerts
-* Detection analytics dashboard
-
----
 
 ## 👨‍💻 Author
 
 **Darshil Savaliya**
-AIML Engineering Student
 
 ---
 
