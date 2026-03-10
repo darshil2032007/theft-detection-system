@@ -3,7 +3,12 @@
 An AI-powered computer vision application built with **Streamlit**, **OpenCV**, and a **custom-trained YOLO model** to analyze retail surveillance videos. The system detects **cash drawer state (OPEN / CLOSED)** and **theft events**, while automatically capturing evidence frames.
 
 ---
+## 🌐 Live Demo
 
+👉 **Try the app:**  
+https://theft-detection-system.streamlit.app/
+
+---
 ## 🚀 Project Overview
 
 This application performs intelligent video analysis to:
